@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="jumbotron" style = "display:block;background-color: bisque">
+        <h1 class="display-4">Tail Command</h1>
+        <p class="lead">This is a simple functionality to match the linux Tail Command.</p>
+        <hr class="my-2">
+        <p>It uses no of lines to show and then shows last 10 or more no of lines.</p>
+       
+      </div>
+    </div>
+    <div class="container">
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button" onclick = "myfunction()">Click To Hide/Show</a>
+      </p>
+    </div>
+    <div class="container">
+    <form action="/route" method="post">
+        <div class="form-group">
+          <label for="numfield">Enter the no. of Lines</label>
+          <input type="text" class="form-control" id="numfield" name="newID" aria-describedby="emailHelp" placeholder="Enter number of lines to see">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your no of lines with anyone else.</small>
+        </div>
+       
+        <button type="submit" id="submitButton" name="lines" value="Submit" class="btn btn-primary">Submit</button>
+      </form>
+    
+  <br />
+  <br />
+  <br />
+  <ol>
+    <% if(id>0) { 
+      var txt = bufferText.split("<br>")
+      txt.forEach(function(data){
+        %>
+        
+        <li> <%- data %></li>
+        
+        <%
+        <!-- console.log(data); -->
+        })
+        %>
+    <!-- <p><%- bufferText %></p> -->
+    <% id = 0} %>
+  </ol>
+</div>
+ <script>
+   function myfunction(){
+     var dev = document.getElementsByClassName('jumbotron');
+     $('.jumbotron').toggle("slide");
+     
+   }
+</script>
+</body>
+</html>
