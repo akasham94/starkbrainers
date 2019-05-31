@@ -1,0 +1,18 @@
+EM:Indicates emphasis.
+STRONG:Indicates stronger emphasis.
+CITE:Contains a citation or a reference to other sources.
+DFN:Indicates that this is the defining instance of the enclosed term.
+CODE:Designates a fragment of computer code.
+SAMP:Designates sample output from programs, scripts, etc.
+KBD:Indicates text to be entered by the user.
+VAR:Indicates an instance of a variable or program argument.
+ABBR:Indicates an abbreviated form (e.g., WWW, HTTP, URI, Mass., etc.).
+ACRONYM:Indicates an acronym (e.g., WAC, radar, etc.).
+EM:Indicates emphasis.
+STRONG:Indicates stronger emphasis.
+CITE:Contains a citation or a reference to other sources.
+DFN:Indicates that this is the defining instance of the enclosed term.
+CODE:Designates a fragment of computer code.
+SAMP:Designates sample output from programs, scripts, etc.
+ACRONYM:Indicates an acronym (e.g., WAC, radar, etc.).
+EM:Indicates emphasis.
